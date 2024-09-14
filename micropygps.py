@@ -1,7 +1,12 @@
 """
+======================== original code ==============================
 # MicropyGPS - a GPS NMEA sentence parser for Micropython/Python 3.X
 # Copyright (c) 2017 Michael Calvin McCoy (calvin.mccoy@protonmail.com)
 # The MIT License (MIT) - see LICENSE file
+
+======================== moderated code =============================
+by Prajuab Riabroy
+Added PVTMA, SDDPT, SDDBT NMEA sentences.
 """
 
 # TODO:
