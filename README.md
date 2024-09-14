@@ -10,6 +10,17 @@ This project involves using a Raspberry Pi Pico W to build a simple echo sounder
 
 ![alt text](https://github.com/pbroboto/Pico-Echo-Sounder/blob/main/airmar-d800-pico-w-_bb-scaled.jpg?raw=true)
 
+**Devices in Use:**
+
+1. Airmar DT800 Transducer (x1)
+2. Raspberry Pi Pico Wireless Microcontroller (x1)
+3. 1602 LCD Display with IIC/I2C Interface (x1)
+4. Micro SD/SDHC Card Adapter Module (SPI) (x1)
+5. RS485 to TTL Converter (MAX485) (x1)
+6. RS232 to TTL Converter (MAX3232) (x1)
+7. Dupont Connectors (assorted)
+8. Breadboard/Protoboard (x1)
+
 ![alt text](https://github.com/pbroboto/Pico-Echo-Sounder/blob/main/IMG_20240714_165123-scaled.jpg?raw=true)
 
 **Testing Procedure**
