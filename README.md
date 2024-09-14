@@ -20,3 +20,6 @@ The circuit board was powered using a USB power bank connected via a USB cable. 
 
 ![alt text](https://github.com/pbroboto/Pico-Echo-Sounder/blob/main/IMG_20240720_140323-1024x461.jpg?raw=true)
 
+**Testing with Hypack**
+
+I tested the Pico Echo Sounder with Hypack software on a Windows desktop. To do this, I opened the Hypack program on my laptop and configured it to work with the Pico Echo Sounder by selecting the nmea.dll driver in the depth selection dialog box and choosing $SDDBT. I set the port parameters to 4800 baud, 8 data bits, no parity, and 1 stop bit, using a USB-to-serial adapter. The test was successful, with the $SDDBT string appearing periodically in accordance with the baud rate settings. It’s important to note that the depth displayed is from the transducer head, not the water surface. To obtain the depth from the water surface, you will need to account for the draft value.
