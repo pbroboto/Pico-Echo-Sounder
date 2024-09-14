@@ -34,3 +34,7 @@ The circuit board was powered using a USB power bank connected via a USB cable. 
 **Testing with Hypack**
 
 I tested the Pico Echo Sounder with Hypack software on a Windows desktop. To do this, I opened the Hypack program on my laptop and configured it to work with the Pico Echo Sounder by selecting the nmea.dll driver in the depth selection dialog box and choosing $SDDBT. I set the port parameters to 4800 baud, 8 data bits, no parity, and 1 stop bit, using a USB-to-serial adapter. The test was successful, with the $SDDBT string appearing periodically in accordance with the baud rate settings. It’s important to note that the depth displayed is from the transducer head, not the water surface. To obtain the depth from the water surface, you will need to account for the draft value.
+
+**Conclusion**
+
+One limitation of the Airmar DT800 transducer is the lack of an API to adjust the draft sound velocity in water. As a result, this experimental echo sounder is best suited for shallow water applications, with a maximum depth of around 25 meters. Due to this constraint, it is not recommended for high-resolution or survey-grade purposes.
