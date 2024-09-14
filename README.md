@@ -10,5 +10,5 @@ This project involves using a Raspberry Pi Pico W to build a simple echo sounder
 
 ![alt text](https://github.com/pbroboto/Pico-Echo-Sounder/blob/main/IMG_20240714_165123-scaled.jpg?raw=true)
 
-![alt text](https://github.com/pbroboto/Pico-Echo-Sounder/blob/main/IMG_20240714_165123-scaled.jpg?raw=true)
+![alt text](https://github.com/pbroboto/Pico-Echo-Sounder/blob/main/IMG_20240720_140323-1024x461.jpg?raw=true)
 
